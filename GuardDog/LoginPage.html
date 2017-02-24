@@ -22,10 +22,10 @@
   <body>
    <script type="text/javascript">
     function prevent(e) { e.preventDefault(); }
-// you could target also another nested DOM element
-document.body.addEventListener('gesturechange', prevent);
-document.body.addEventListener('gesturestart', prevent);
-document.body.addEventListener('gestureend', prevent);
+	// you could target also another nested DOM element
+	document.body.addEventListener('gesturechange', prevent);
+	document.body.addEventListener('gesturestart', prevent);
+	document.body.addEventListener('gestureend', prevent);
   </script>
   <nav id="nav-bar-header" class="navbar navbar-inverse navbar-fixed-top">
   	  <div class="container-fluid">
@@ -79,5 +79,10 @@ document.body.addEventListener('gestureend', prevent);
 
 	<!-- Include all compiled plugins (below), or include individual files as needed --> 
 	<script src="js/bootstrap.js"></script>
+  <script src="js/jquery.stellar.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/viewportchecker.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/Scrolling.js"></script>
   </body>
 </html>
