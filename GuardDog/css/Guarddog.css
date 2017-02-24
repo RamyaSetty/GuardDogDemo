@@ -81,9 +81,10 @@ body {
 	text-decoration: none;
 	cursor: pointer;
 	font-size: 55px;
+	color: white;
 }
 
-a:visited,a:focus{
+a:visited,a:focus,a:hover{
 	color:white;
 	text-decoration: none;
 }
@@ -177,10 +178,6 @@ backface-visibility:hidden;
 	background-image: url(../Images/item3.png);
 }
 
-.frontofcard a:hover{
-	text-decoration: none;
-	
-}
 
 #announcement1, #announcement2, #announcement3{
 	margin-top: 30px;
