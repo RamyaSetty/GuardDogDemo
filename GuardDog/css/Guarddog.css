@@ -212,7 +212,7 @@ backface-visibility:hidden;
 
 #loginContainer{
 	margin-top: 50px;
-	margin-bottom: 150px;
+	height: 400px;
 }
 
 #email{
